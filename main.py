@@ -31,7 +31,7 @@ q5 = Question('Скільки буде 100/50?', '2', '5', '10', '4')
 q6 = Question('Скільки буде 500-250?', '250', '25', '300', '100')
 
 radio_buttons = [rb_ans1, rb_ans2, rb_ans3, rb_ans4]
-questions = [q1, q2, q3, q4]
+questions = [q1, q2, q3, q4, q5, q6]
 
 def new_question():
     global cur_q
